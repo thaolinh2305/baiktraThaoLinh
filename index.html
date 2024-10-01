@@ -133,6 +133,22 @@
         .intro p {
             padding: 20px;
         }
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+            header {
+                margin-left: 0;
+            }
+            .content {
+                margin-left: 0;
+                margin: 10px;
+                padding: 0;
+            }
+            .courses {
+                flex-direction: column;
+            }
+        }
     </style>
 </head>
 <body>
@@ -149,6 +165,7 @@
         </ul>
     </div>
 
+    
     <!-- Header -->
     <header>
         <img src="logo.jpg" alt="VINATECH Logo">
@@ -206,3 +223,4 @@
 
 </body>
 </html>
+
